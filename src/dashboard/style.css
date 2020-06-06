@@ -1,0 +1,109 @@
+.tab-pane{
+    -fx-background-color: #121212;
+}
+
+.tab-header-background{
+    -fx-background-color: #3c3c3c;
+}
+
+.tab{
+   -fx-background-color: #121212;
+}
+
+.tab-label{
+    -fx-text-fill: #ffffff;
+}
+
+.tab:selected{
+    -fx-background-color: #3c3c3c;
+}
+
+.chart{
+    -fx-background-color: transparent;
+}
+
+.chart-legend{
+    -fx-background-color: transparent;
+}
+
+.chart-legend-item{
+    -fx-text-fill: #ffffff;
+}
+
+.chart-title{
+    -fx-text-fill: #ffffff;
+}
+
+.chart-plot-background{
+    -fx-background-color: #000000;
+}
+
+.axis {
+    -fx-tick-label-fill: #ffffff;
+}
+
+.titled-pane{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #000000;
+}
+
+.titled-pane >  .title{
+    -fx-background-color: #000000;
+}
+
+#label1, #label2, #label3, #label4, #label5, #label6,
+#label7, #label8, #label9, #label10, #label11, #label12,
+#T, #TT, #TTT, #TTTT, #TTTTT, #TTTTTT, #TTTTTTT, #TTTTTTTT,
+#b, #bb, #cx, #cy, #ch{
+    -fx-font-size: 15;
+}
+
+#a, #aa{
+    -fx-font-size: 20;
+}
+
+#Kp1T,#Ki1T,#Kd1T,#s1T,#mip1T,#map1T,
+#Kp2T,#Ki2T,#Kd2T,#s2T,#mip2T,#map2T,
+#bT, #cT, #sT{
+    -fx-font-size: 12.5;
+}
+
+.label{
+    -fx-text-fill: ffffff;
+    -fx-font-size: 12.5;
+}
+
+.choice-box{
+    -fx-background-color: #000000;
+}
+
+.choice-box .context-menu{
+    -fx-background-color: #000000;
+}
+
+.choice-box .menu-item:focused{
+    -fx-background-color: #3c3c3c;
+}
+
+.spinner .text-field{
+    -fx-background-color: #000000;
+    -fx-text-fill: ffffff;
+}
+
+.spinner .increment-arrow-button:hover:pressed,
+.spinner .decrement-arrow-button:hover:pressed,
+.spinner .increment-arrow-button:pressed,
+.spinner .decrement-arrow-button:pressed {
+    -fx-background-color: #3c3c3c;
+}
+
+
+.default-color0.chart-series-line { -fx-stroke: #6200EE;}
+.default-color1.chart-series-line { -fx-stroke: #BB86FC;}
+.default-color2.chart-series-line { -fx-stroke: #03DAC6;}
+.default-color3.chart-series-line { -fx-stroke: #CF6679;}
+
+.default-color0.chart-line-symbol {-fx-background-color: #6200EE, #6200EE; -fx-padding: 3px;}
+.default-color1.chart-line-symbol {-fx-background-color: #BB86FC, #BB86FC; -fx-padding: 3px;}
+.default-color2.chart-line-symbol {-fx-background-color: #03DAC6, #03DAC6; -fx-padding: 3px;}
+.default-color3.chart-line-symbol {-fx-background-color: #CF6679, #CF6679; -fx-padding: 3px;}
